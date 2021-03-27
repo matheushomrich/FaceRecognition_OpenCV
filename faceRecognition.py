@@ -40,7 +40,7 @@ def main():
         #cv2.VideoWriter("ANA", frame)
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
-    cv2.VideoWriter("ANA", frame)
+    cv2.VideoWriter("video", frame)
     cap.release()
     cv2.destroyAllWindows()
 if __name__ == "__main__":
